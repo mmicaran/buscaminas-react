@@ -3,14 +3,45 @@
 @tailwind utilities;
 
 html {
-  background-color: #13151a;
-  color: #fff;
+  @apply bg-gray-950 text-white;
 }
 
 body{
-  @apply grid place-content-center p-8;
+  @apply py-4 px-10;
+  width: 100vw;
+  height: 100vh;
 }
 
-body > div {
-  @apply container;
+#root {
+  @apply flex items-center justify-between;
+  width: 100%;
+  height: 100%;
+}
+
+.input-custom{
+  @apply bg-gray-800 text-white font-bold py-2 px-4 rounded-lg mb-4;
+}
+
+.btn-primary{
+  @apply bg-purple-200 text-purple-900 font-bold text-lg py-2 px-4 rounded-2xl;
+}
+
+.btn-primary:hover{
+  @apply bg-purple-800 text-white;
+}
+
+.btn-danger{
+  @apply bg-red-200 text-red-900 font-bold text-lg py-2 px-4 rounded-2xl;
+}
+
+.btn-danger:hover{
+  @apply bg-red-800 text-white;
+}
+
+.btn-success{
+  @apply bg-green-900 text-white font-bold text-lg py-2 px-4 rounded-2xl;
+}
+
+.btn-success:hover{
+  @apply bg-green-800;
 }
