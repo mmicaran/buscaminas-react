@@ -1,7 +1,5 @@
 # Ejercicio de buscaminas
 
-Hoy es Halloween (o no si venís del futuro) pero las calabazas están de promoción y los sustos están en oferta. Queremos mantener el espiritu de Halloween y para eso vamos a hacer un juego de Buscaminas. No tenemos especificaciones muy claras así que esperamos que nos sorprendas con tu creatividad.
-
 ## Requerimientos
 
 - [X] Debemos ver una grilla de 10x10 casillas donde podemos clickear cada una de ellas.
