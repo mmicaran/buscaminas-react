@@ -18,7 +18,7 @@ export const JuegoBuscaminas = () => {
   const [estado, setEstado] = useState(estados.inicio)
 
   useEffect(() => {
-    let interval: NodeJS.Timeout = setInterval(() => { }, 1000)
+    let interval: ReturnType<typeof setInterval> = setInterval(() => { }, 1000)
     if (jugando) {
       interval = setInterval(() => {
         setTemporizador((prev) => prev + 1)
